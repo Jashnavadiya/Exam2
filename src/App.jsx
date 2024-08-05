@@ -84,10 +84,11 @@ const App = () => {
                 className="object-cover w-full h-64"
               />
             </figure>
+            
             <div className="card-body p-4">
               <h2 className="card-title text-lg font-semibold">{ele.title}</h2>
               <p className="text-gray-700">Price:{ele.price}</p>
-              
+
             </div>
           </div>
         ))}
